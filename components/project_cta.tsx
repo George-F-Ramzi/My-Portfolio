@@ -22,7 +22,7 @@ export default function ProjectCTA() {
         target="_blank"
         href="https://soundly-peach.vercel.app/"
         className={`block ${
-          postion > 200 ? "Fade" : "opacity-0"
+          postion > 160 ? "Fade" : "opacity-0"
         } cursor-pointer relative h-full py-9 pl-9 pr-5 text-white rounded-2xl  min-w-[312px] bg-BP `}
       >
         <h1 className="font-bold text-5xl">Try It Now</h1>
@@ -37,7 +37,7 @@ export default function ProjectCTA() {
         target="_blank"
         href="https://github.com/George-F-Ramzi/soundly"
         className={`block ${
-          postion > 250 ? "Fade" : "opacity-0"
+          postion > 240 ? "Fade" : "opacity-0"
         } cursor-pointer relative h-full py-9 pl-9 pr-5 text-white rounded-2xl  min-w-[312px] bg-BS `}
       >
         <h1 className="font-bold text-5xl">Code</h1>
@@ -52,7 +52,7 @@ export default function ProjectCTA() {
         target="_blank"
         href="https://www.figma.com/file/nohasksUb7HzWLOFQ8JiPV/Soundly----music-sharing-platfrom?type=design&mode=design&t=xZSFtb9YZf0uSdyx-0"
         className={`block ${
-          postion > 300 ? "Fade" : "opacity-0"
+          postion > 240 ? "Fade" : "opacity-0"
         } cursor-pointer h-full rounded-2xl min-w-[312px] bg-transparent border border-[#B8B8B8] `}
       >
         <div className="w-full h-full flex pl-9 pr-5 items-center  rounded-2xl">

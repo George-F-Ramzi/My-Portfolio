@@ -5,9 +5,7 @@ import ProjectCTA from "./project_cta";
 
 export default function ProjectSection() {
   return (
-    <section
-      className={`gap-x-8 ${show} mb-8 grid grid-cols-[2fr,1fr] max-[820px]:grid-cols-[1fr]`}
-    >
+    <section className="gap-x-8  mb-8 grid grid-cols-[2fr,1fr] max-[820px]:grid-cols-[1fr]">
       <div className="text-white pt-12 pr-7 pb-20 pl-12 min-w-[400px] max-[820px]:p-7  max-[820px]:min-w-[328px]  bg-BBG  rounded-2xl ">
         <h2 className="text-para text-base max-[820px]:mb-3 mb-6 leading-LH">
           Personal Project

@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <main>
       <LandingSection />
-      <ProjectSection  />
+      <ProjectSection />
       <Separator
         show={postion > 600 ? "Fade" : "opacity-0"}
         title="My UX UI Work"

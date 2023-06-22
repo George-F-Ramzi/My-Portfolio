@@ -5,9 +5,28 @@ export default function LandingSection() {
     <section className="gap-x-8 mb-8 max-[1020px]:block grid grid-cols-[1fr,auto]">
       <div className="h-fit max-[700px]:p-7 max-[700px]:min-w-[328px] w-full pt-8 pl-12 pr-4 pb-12 rounded-2xl bg-BBG">
         <h1 className="text-5xl max-[620px]:text-4xl max-[500px]:text-2xl text-white font-bold leading-LH">
-          Your <span className="text-[#94D2BD]">Tal</span>
-          <span className="text-[#EE9B00]">en</span>
-          <span className="text-[#F07167]">ted</span>
+          Your{" "}
+          <span
+            // @ts-ignore
+            style={{ "--delay": "0s" }}
+            className="text-[#94D2BD] TextAnimation "
+          >
+            Tal
+          </span>
+          <span
+            // @ts-ignore
+            style={{ "--delay": "1s" }}
+            className="text-[#EE9B00] TextAnimation  "
+          >
+            en
+          </span>
+          <span
+            // @ts-ignore
+            style={{ "--delay": "2s" }}
+            className="text-[#F07167] TextAnimation  "
+          >
+            ted
+          </span>
           <br />
           Front-end Developer
         </h1>

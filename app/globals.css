@@ -14,3 +14,19 @@
     opacity: 1;
   }
 }
+
+.TextAnimation {
+  animation: text 3s var(--delay) infinite alternate;
+}
+
+@keyframes text {
+  0% {
+    color: #f07167;
+  }
+  50% {
+    color: #ee9b00;
+  }
+  100% {
+    color: #94d2bd;
+  }
+}
