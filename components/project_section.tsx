@@ -3,7 +3,7 @@
 import Image from "next/image";
 import ProjectCTA from "./project_cta";
 
-export default function ProjectSection({ show }: { show: string }) {
+export default function ProjectSection() {
   return (
     <section
       className={`gap-x-8 ${show} mb-8 grid grid-cols-[2fr,1fr] max-[820px]:grid-cols-[1fr]`}
