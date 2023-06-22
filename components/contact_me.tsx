@@ -12,9 +12,9 @@ export default function ContactMe() {
       </h2>
       <Arrow
         color="white"
-        height="72"
-        width="72"
-        classNames="max-[540px]:h-[48px] max-[540px]:w-[48px]  h-[72px] w-[72px]"
+        height="64"
+        width="64"
+        classNames="max-[540px]:h-[36px] max-[540px]:w-[36px]  h-[64px] w-[64px]"
       />
     </a>
   );

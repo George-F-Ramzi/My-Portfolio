@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       lineHeight: { LH: "150%" },
-      backgroundColor: { BBG: "#00212E", BP: "#0081A7", BS: "#94D2BD" },
+      backgroundColor: { BBG: "#00212E", BP: "#005F73", BS: "#003F4D" },
       textColor: { para: "#E6E6E6", BC: "#2C2C2C" },
       gridTemplateColumns: {
         projects: "repeat(auto-fit, minmax(328px, 1fr));",

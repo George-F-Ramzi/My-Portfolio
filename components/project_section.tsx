@@ -49,14 +49,14 @@ export default function ProjectSection() {
             <a
               target="_blank"
               href="https://github.com/George-F-Ramzi/soundly"
-              className="inline-block text-center text-[#2c2c2c]  font-bold text-base w-full py-3 bg-BS rounded-full "
+              className="inline-block text-center text-white  font-bold text-base w-full py-3 bg-BS rounded-full "
             >
               Code
             </a>
             <a
               target="_blank"
               href="https://www.figma.com/file/nohasksUb7HzWLOFQ8JiPV/Soundly----music-sharing-platfrom?type=design&mode=design&t=xZSFtb9YZf0uSdyx-0"
-              className="inline-block text-center text-[#E6E6E6] font-bold text-base w-full py-3 bg-transparent border border-[#E6E6E6] rounded-full "
+              className="inline-block text-center text-[#CCCCCC] font-bold text-base w-full py-3 bg-transparent border border-[#CCCCCC] rounded-full "
             >
               Design
             </a>
@@ -72,28 +72,28 @@ export default function ProjectSection() {
           <h1 className="font-bold text-5xl">Try It Now</h1>
           <Arrow
             color="white"
-            height="64"
-            width="64"
-            classNames="absolute h-[64px] bottom-5 right-5 w-[64px]"
+            height="40"
+            width="40"
+            classNames="absolute h-[40px] bottom-5 right-5 w-[40px]"
           />
         </a>
         <a
           target="_blank"
           href="https://github.com/George-F-Ramzi/soundly"
-          className="inline-block cursor-pointer relative h-full py-9 pl-9 pr-5 text-BC rounded-2xl  min-w-[312px] bg-BS "
+          className="inline-block cursor-pointer relative h-full py-9 pl-9 pr-5 text-white rounded-2xl  min-w-[312px] bg-BS "
         >
           <h1 className="font-bold text-5xl">Code</h1>
           <Arrow
-            color="rgb(44 44 44)"
-            height="64"
-            width="64"
-            classNames="absolute h-[64px] bottom-5 right-5 w-[64px]"
+            color="white"
+            height="40"
+            width="40"
+            classNames="absolute h-[40px] bottom-5 right-5 w-[40px]"
           />
         </a>
         <a
           target="_blank"
           href="https://www.figma.com/file/nohasksUb7HzWLOFQ8JiPV/Soundly----music-sharing-platfrom?type=design&mode=design&t=xZSFtb9YZf0uSdyx-0"
-          className="inline-block  cursor-pointer h-full rounded-2xl min-w-[312px] bg-transparent border border-[#B8B8B8] "
+          className="inline-block   cursor-pointer h-full rounded-2xl min-w-[312px] bg-transparent border border-[#B8B8B8] "
         >
           <div className="w-full h-full flex pl-9 pr-5 items-center  rounded-2xl">
             <h1 className="font-bold text-[#B8B8B8] text-[32px] grow">
@@ -101,9 +101,9 @@ export default function ProjectSection() {
             </h1>
             <Arrow
               color="#B8B8B8"
-              height="64"
-              width="64"
-              classNames="h-[64px] w-[64px]"
+              height="40"
+              width="40"
+              classNames="h-[40px] w-[40px]"
             />
           </div>
         </a>
