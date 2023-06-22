@@ -40,7 +40,7 @@ let projects = [
   {
     name: "Chat_~",
     details: "Chat_~ is a UX UI Mesagging kit for mobile and the web",
-    url: "https://www.figma.com/file/u6HQwCCpFYT8I1nUGO9x73/Messaging-App-UI-kit?type=design&mode=design",
+    url: "https://www.figma.com/file/u6HQwCCpFYT8I1nUGO9x73/Messaging-App-UI-kit?type=design&node-id=302%3A3434&mode=design&t=uRuPvGSzlo3A1HSq-1",
   },
   {
     name: "Great Pyramid",
