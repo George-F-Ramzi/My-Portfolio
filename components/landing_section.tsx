@@ -1,9 +1,11 @@
+"use client";
+
 import Image from "next/image";
 
 export default function LandingSection() {
   return (
-    <section className="gap-8 max-[1020px]:block grid grid-cols-[1fr,auto]">
-      <div className="h-fit max-[700px]:p-7 w-full pt-8 pl-12 pr-4 pb-12 rounded-2xl bg-BBG">
+    <section className="gap-x-8 mb-8 max-[1020px]:block grid grid-cols-[1fr,auto]">
+      <div className="h-fit max-[700px]:p-7 max-[700px]:min-w-[328px] w-full pt-8 pl-12 pr-4 pb-12 rounded-2xl bg-BBG">
         <h1 className="text-5xl max-[620px]:text-4xl max-[500px]:text-2xl text-white font-bold leading-LH">
           Your <span className="text-[#94D2BD]">Tal</span>
           <span className="text-[#EE9B00]">en</span>

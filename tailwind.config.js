@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       lineHeight: { LH: "150%" },
-      backgroundColor: { BBG: "#00212E", BP: "#0081A7" },
-      textColor: { para: "#E6E6E6" },
+      backgroundColor: { BBG: "#00212E", BP: "#0081A7", BS: "#94D2BD" },
+      textColor: { para: "#E6E6E6", BC: "#2C2C2C" },
     },
   },
   plugins: [],
