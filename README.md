@@ -1,4 +1,4 @@
 ## Hello
 
-this link is deprecated
-you can use the new portflio from [here](https://my-portfolio-wheat-zeta.vercel.app/)
+this my portfolio repo if you wanna see the portfolio
+[click here](https://my-portfolio-wheat-zeta.vercel.app/)
