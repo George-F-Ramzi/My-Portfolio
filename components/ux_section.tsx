@@ -1,6 +1,6 @@
-export default function UXSection() {
+export default function UXSection({ show }: { show: string }) {
   return (
-    <section className="mb-8 grid grid-cols-projects gap-8">
+    <section className={`mb-8 ${show} grid grid-cols-projects gap-8`}>
       {projects.map((p, i) => {
         return (
           <Project name={p.name} details={p.details} url={p.url} key={i} />
@@ -38,7 +38,7 @@ function Project({ name, details, url }: Prop) {
 
 let projects = [
   {
-    name: "Chat_",
+    name: "Chat_~",
     details: "Chat_~ is a UX UI Mesagging kit for mobile and the web",
     url: "https://www.figma.com/file/u6HQwCCpFYT8I1nUGO9x73/Messaging-App-UI-kit?type=design&mode=design",
   },

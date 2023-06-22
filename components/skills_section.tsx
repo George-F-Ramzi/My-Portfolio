@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-export default function SkillsSection() {
+export default function SkillsSection({ show }: { show: string }) {
   return (
-    <section className="mb-8 grid grid-cols-skills gap-8">
+    <section className={`${show} mb-8 grid grid-cols-skills gap-8`}>
       {skills.map((p, i) => {
         return <Skill width={p.width} name={p.name} url={p.url} key={i} />;
       })}
