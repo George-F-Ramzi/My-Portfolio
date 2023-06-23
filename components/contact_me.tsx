@@ -1,6 +1,6 @@
 import Arrow from "./arrow";
 
-export default function ContactMe({ show }: { show: string }) {
+export default function ContactMe() {
   return (
     <a
       target="_blank"

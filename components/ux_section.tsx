@@ -1,6 +1,6 @@
-export default function UXSection({ show }: { show: string }) {
+export default function UXSection() {
   return (
-    <section className={`mb-8 ${show} grid grid-cols-projects gap-8`}>
+    <section className={`mb-8  grid grid-cols-projects gap-8`}>
       {projects.map((p, i) => {
         return (
           <Project name={p.name} details={p.details} url={p.url} key={i} />
