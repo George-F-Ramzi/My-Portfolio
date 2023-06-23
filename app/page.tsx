@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import LandingSection from "@/components/landing_section";
 import ProjectSection from "@/components/project_section";
 import Separator from "@/components/separator";
