@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import Arrow from "./arrow";
 
 export default function ProjectCTA() {

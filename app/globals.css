@@ -21,10 +21,10 @@
 
 @keyframes text {
   0% {
-    color: #f07167;
+    color: #ee9b00;
   }
   50% {
-    color: #ee9b00;
+    color: #f07167;
   }
   100% {
     color: #94d2bd;
