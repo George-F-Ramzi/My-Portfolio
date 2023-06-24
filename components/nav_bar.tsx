@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <nav className="flex items-center justify-between">
       <h1 className="text-base font-bold ">$George;</h1>
-      <ul className="flex font-bold justify-between w-[218px]">
+      <ul className="flex font-bold justify-between max-[560px]:w-[202px] w-[218px]">
         <li className=" ">
           <a className=" inline-block">Home</a>
         </li>
