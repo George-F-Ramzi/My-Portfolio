@@ -6,6 +6,10 @@
   animation: fade 1s 0s 1 ease-in alternate;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @keyframes fade {
   0% {
     opacity: 0.2;

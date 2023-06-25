@@ -14,7 +14,10 @@ export default function Home() {
       <ProjectsSeparator />
       <WebProject />
       <UXWork />
-      <h2 className="text-[128px] max-[500px]:text-4xl max-[500px]:mt-12 max-[500px]:mb-8 mb-20 mt-32 font-bold leading-LH">
+      <h2
+        id="skills"
+        className="text-[128px] max-[500px]:text-4xl max-[500px]:mt-12 max-[500px]:mb-8 mb-20 mt-32 font-bold leading-LH"
+      >
         Skills
       </h2>
       <SkillsSection />

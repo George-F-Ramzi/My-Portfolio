@@ -19,7 +19,10 @@ export default function ProjectsSeparator() {
   }, []);
 
   return (
-    <div className="relative  max-[470px]:mt-14 max-[470px]:ml-2  max-[470px]:mb-8 max-[800px]:mt-20 mb-20 mt-[156px]">
+    <div
+      id="projects"
+      className="relative  max-[470px]:mt-14 max-[470px]:ml-2  max-[470px]:mb-8 max-[800px]:mt-20 mb-20 mt-[156px]"
+    >
       <h2
         className={`text-[96px] ${
           postion > 150 ? "fade" : "fade-out opacity-20"
