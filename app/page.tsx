@@ -1,6 +1,7 @@
 import LandingHero from "@/components/landing_hero";
 import ProjectsSeparator from "@/components/micro_components/projects_separator";
 import NavBar from "@/components/nav_bar";
+import UXWork from "@/components/ux_work";
 import WebProject from "@/components/web_project";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <LandingHero />
       <ProjectsSeparator />
       <WebProject />
+      <UXWork />
     </main>
   );
 }

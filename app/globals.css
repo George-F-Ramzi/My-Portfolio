@@ -27,3 +27,11 @@
     opacity: 0;
   }
 }
+
+.progress-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, #0f0f0f 79%, transparent 80% 100%),
+    conic-gradient(white var(--incrementer), #363636 0);
+}

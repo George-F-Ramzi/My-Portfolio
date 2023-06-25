@@ -1,6 +1,7 @@
 import React from "react";
 import SkillsUsed from "./micro_components/skills_used";
 import ProjectActions from "./micro_components/project_actions";
+import Metrics from "./micro_components/metrics";
 
 export default function WebProject() {
   return (
@@ -30,38 +31,7 @@ export default function WebProject() {
           <br />
           Google PageSpeed Insight
         </h2>
-        <div className="grid gap-7 grid-cols-metrics">
-          <div className="w-[114px] flex flex-col items-center ">
-            <div className="h-[100px] mb-6 w-[100px] flex items-center justify-center text-2xl font-bold rounded-full border-[10px]">
-              100
-            </div>
-            <h2 className="text-bold font-bold  leading-LH text-base">
-              Performance
-            </h2>
-          </div>
-          <div className="w-[114px] flex flex-col items-center ">
-            <div className="h-[100px] mb-6 w-[100px] flex items-center justify-center text-2xl font-bold rounded-full border-[10px]">
-              100
-            </div>
-            <h2 className="text-bold font-bold  leading-LH text-base">SEO</h2>
-          </div>
-          <div className="w-[114px] flex flex-col items-center ">
-            <div className="h-[100px] mb-6 w-[100px] flex items-center justify-center text-2xl font-bold rounded-full border-[10px]">
-              100
-            </div>
-            <h2 className="text-bold font-bold  leading-LH text-base">
-              Accessibility
-            </h2>
-          </div>
-          <div className="w-[114px] flex flex-col items-center ">
-            <div className="h-[100px] mb-6 w-[100px] flex items-center justify-center text-2xl font-bold rounded-full border-[10px]">
-              100
-            </div>
-            <h2 className="text-bold w-full  font-bold  leading-LH text-base">
-              Best Practices
-            </h2>
-          </div>
-        </div>
+        <Metrics />
       </div>
     </section>
   );
