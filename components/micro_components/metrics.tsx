@@ -1,11 +1,18 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import Intersection from "@/lib/intersection";
+import { MutableRefObject, useEffect, useRef, useState } from "react";
 
 export default function Metrics() {
   const [number, setNumber] = useState(0);
+  const ref = useRef<HTMLDivElement | null>(null);
+  let inViewPort = Intersection(
+    ref as MutableRefObject<HTMLDivElement>,
+    "-160px"
+  );
 
   useEffect(() => {
+    if (!inViewPort) return;
     let timeout;
     if (number !== 100) {
       timeout = setTimeout(() => {
@@ -14,12 +21,14 @@ export default function Metrics() {
     } else {
       clearTimeout(timeout);
     }
-  }, [number]);
+  }, [number, inViewPort]);
 
   return (
     <div className="grid gap-7 grid-cols-metrics">
       <div className="w-[114px] flex flex-col items-center ">
-        <div // @ts-ignore
+        <div
+          ref={ref}
+          // @ts-ignore
           style={{ "--incrementer": `${number}%` }}
           className="h-[100px] mb-6 w-[100px] flex items-center justify-center text-2xl font-bold progress-circle"
         >
@@ -31,6 +40,7 @@ export default function Metrics() {
       </div>
       <div className="w-[114px] flex flex-col items-center ">
         <div
+          ref={ref}
           // @ts-ignore
           style={{ "--incrementer": `${number}%` }}
           className="h-[100px] mb-6 w-[100px] flex items-center justify-center text-2xl font-bold progress-circle"
@@ -40,7 +50,9 @@ export default function Metrics() {
         <h2 className="text-bold font-bold  leading-LH text-base">SEO</h2>
       </div>
       <div className="w-[114px] flex flex-col items-center ">
-        <div // @ts-ignore
+        <div
+          ref={ref}
+          // @ts-ignore
           style={{ "--incrementer": `${number}%` }}
           className="h-[100px] mb-6 w-[100px] flex items-center justify-center text-2xl font-bold progress-circle"
         >
@@ -51,7 +63,9 @@ export default function Metrics() {
         </h2>
       </div>
       <div className="w-[114px] flex flex-col items-center ">
-        <div // @ts-ignore
+        <div
+          ref={ref}
+          // @ts-ignore
           style={{ "--incrementer": `${number}%` }}
           className="h-[100px] mb-6 w-[100px] flex items-center justify-center text-2xl font-bold progress-circle"
         >
