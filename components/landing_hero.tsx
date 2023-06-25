@@ -18,7 +18,7 @@ export default function LandingHero() {
           <ContactActions />
         </div>
       </div>
-      <div className=" max-[932px]:hidden max-[472px]:flex max-[472px]:mb-8 max-[472px]:w-full max-[472px]:h-[500px] rounded-2xl flex items-center justify-center border-color w-[340px] h-full bg-Gradient ">
+      <div className=" max-[932px]:hidden  max-[472px]:flex max-[472px]:mb-8 max-[472px]:w-full max-[472px]:h-[500px] rounded-2xl flex items-center justify-center border-color w-[340px] h-full bg-Gradient ">
         <Image
           className="w-[244px] h-[336px]"
           src={"/me.png"}

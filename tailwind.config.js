@@ -15,6 +15,7 @@ module.exports = {
       borderColor: { color: "#262626" },
       gridTemplateColumns: {
         skills: "repeat(auto-fit, minmax(276px, 1fr));",
+        metrics: "repeat(auto-fit, minmax(100px, 1fr));",
       },
     },
   },

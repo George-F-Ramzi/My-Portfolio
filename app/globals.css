@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .fade {
-  animation: fade 2s 0s 1 linear;
+  animation: fade 2s 0s 1 ease-in;
 }
 
 @keyframes fade {
@@ -12,5 +12,18 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+.fade-out {
+  animation: fade-out 2s 0s 1 ease-in;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
