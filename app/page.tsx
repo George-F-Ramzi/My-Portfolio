@@ -16,12 +16,12 @@ export default function Home() {
       <UXWork />
       <h2
         id="skills"
-        className="text-[128px] max-[500px]:text-4xl max-[500px]:mt-12 max-[500px]:mb-8 mb-20 mt-32 font-bold leading-LH"
+        className="text-[128px] max-[420px]:ml-4 max-[500px]:text-4xl max-[500px]:mt-12 max-[500px]:mb-8 mb-20 mt-32 font-bold leading-LH"
       >
         Skills
       </h2>
       <SkillsSection />
-      <h2 className="max-[772px]:mt-[56px] mt-32 max-[772px]:mb-12 mb-24 max-[772px]:text-[32px] max-[420px]:text-[24px]  max-[420px]:ml-2 leading-LH font-bold text-[64px]">
+      <h2 className=" max-[772px]:mt-[56px] mt-32 max-[772px]:mb-12 mb-24 max-[772px]:text-[32px] max-[420px]:text-[24px] leading-LH font-bold text-[64px]">
         LET`S TALK ABOUT
         <br />
         THE NEXT BIG THING.
