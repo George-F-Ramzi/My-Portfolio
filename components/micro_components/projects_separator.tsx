@@ -1,22 +1,28 @@
 "use client";
 
-import Intersection from "@/lib/intersection";
 import Image from "next/image";
-import { MutableRefObject, useRef } from "react";
+import { useEffect, useState } from "react";
 
 export default function ProjectsSeparator() {
-  const ref = useRef<HTMLHeadingElement | null>(null);
-  let inViewPort = Intersection(
-    ref as MutableRefObject<HTMLHeadingElement>,
-    "-200px"
-  );
+  const [postion, setPostion] = useState(0);
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY;
+    setPostion(scrollPosition);
+  };
+
+  useEffect(() => {
+    handleScroll();
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <div className="relative  max-[470px]:mt-14 max-[470px]:ml-2  max-[470px]:mb-8 max-[800px]:mt-20 mb-20 mt-[156px]">
       <h2
-        ref={ref}
         className={`text-[96px] ${
-          inViewPort ? "fade" : "fade-out opacity-0"
+          postion > 150 ? "fade" : "fade-out opacity-20"
         } max-[470px]:text-4xl max-[470px]:mb-8  max-[600px]:text-5xl max-[1020px]:text-7xl font-bold leading-LH`}
       >
         Selected Work

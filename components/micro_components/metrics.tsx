@@ -24,7 +24,7 @@ export default function Metrics() {
   }, [number, inViewPort]);
 
   return (
-    <div className="grid gap-7 grid-cols-metrics">
+    <div className="grid -ml-2 gap-7 grid-cols-metrics">
       <div className="w-[114px] flex flex-col items-center ">
         <div
           ref={ref}
