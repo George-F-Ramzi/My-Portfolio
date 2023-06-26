@@ -1,269 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>George F.Ramzi</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <nav>
-      <h1>George</h1>
-      <div>
-        <ul>
-          <li>
-            <a href="#select-separator">Projects</a>
-          </li>
-          <li>
-            <a href="#skills-title">Skills</a>
-          </li>
-        </ul>
-        <div class="social-icons">
-          <a  target="_blank" class="social-icons__link" href="https://www.linkedin.com/in/george-ramzi-74646a228/">
-            <img
-              alt="social link"
-              height="16"
-              width="40"
-              src="public/images/linkden.svg"
-            />
-          </a>
-          <a target="_blank"  class="social-icons__link" href="https://twitter.com/GeorgeRamzi2">
-            <img
-              alt="social link"
-              height="16"
-              width="40"
-              src="public/images/twitter.svg"
-            />
-          </a>
-          <a target="_blank" class="social-icons__link" href="https://github.com/George-F-Ramzi?tab=repositories">
-            <img
-              alt="social link"
-              height="16"
-              width="40"
-              src="public/images/github.svg"
-            />
-          </a>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>George F.Ramzi</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <h1>George</h1>
+    <div>
+      <ul>
+        <li>
+          <a href="#select-separator">Projects</a>
+        </li>
+        <li>
+          <a href="#skills-title">Skills</a>
+        </li>
+      </ul>
+      <div class="social-icons">
+        <a target="_blank" class="social-icons__link" href="https://www.linkedin.com/in/george-ramzi-74646a228/">
+          <img alt="social link" height="16" width="40" src="public/images/linkden.svg">
+        </a>
+        <a target="_blank" class="social-icons__link" href="https://twitter.com/GeorgeRamzi2">
+          <img alt="social link" height="16" width="40" src="public/images/twitter.svg">
+        </a>
+        <a target="_blank" class="social-icons__link" href="https://github.com/George-F-Ramzi?tab=repositories">
+          <img alt="social link" height="16" width="40" src="public/images/github.svg">
+        </a>
       </div>
-    </nav>
-    <main class="card">
-      <p class="card__subheader">Front-End Developer</p>
-      <h2 class="card__header">George F.Ramzi</h2>
+    </div>
+  </nav>
+  <main class="card">
+    <p class="card__subheader">Front-End Developer</p>
+    <h2 class="card__header">George F.Ramzi</h2>
+    <p class="card__para">
+      Hi, I’m a front-end Developer based in Egypt. My love for the web
+      started when I started coding my UX UI work. Seeing my designs go
+      interactive is like seeing my designs come alive.
+    </p>
+    <a onclick="Copy()" class="contact-me main-btn">Contact Me</a>
+  </main>
+  <h2 id="select-separator">Selected Work</h2>
+  <section id="projects-grid">
+    <div class="card">
+      <p class="card__subheader">Web Development Project</p>
+      <h2 class="card__header">Soundly</h2>
       <p class="card__para">
-        Hi, I’m a front-end Developer based in Egypt. My love for the web
-        started when I started coding my UX UI work. Seeing my designs go
-        interactive is like seeing my designs come alive.
+        Soundly is a music-sharing platform aiming to deliver the best user
+        experience, a free environment for sharing music with no
+        algorithm-based recommendations, and an opportunity for everyone to
+        get discovered.
       </p>
-      <a onclick="Copy()" class="contact-me main-btn">Contact Me</a>
-    </main>
-    <h2 id="select-separator">Selected Work</h2>
-    <section id="projects-grid">
-      <div class="card">
-        <p class="card__subheader">Web Development Project</p>
-        <h2 class="card__header">Soundly</h2>
-        <p class="card__para">
-          Soundly is a music-sharing platform aiming to deliver the best user
-          experience, a free environment for sharing music with no
-          algorithm-based recommendations, and an opportunity for everyone to
-          get discovered.
-        </p>
-        <img
-          class="skills-used"
-          alt="Skills Used"
-          height="28"
-          width="260"
-          src="public/images/skiles-used.svg"
-        />
-        <div class="project__buttons">
-          <a target="_blank" href="https://soundly-peach.vercel.app/" class="project__demo-btn">Demo</a>
-          <div class="project__buttons-sub">
-            <a target="_blank" href="https://github.com/George-F-Ramzi/soundly" class="project__code-btn">Code</a>
-            <a target="_blank" href="https://www.figma.com/file/nohasksUb7HzWLOFQ8JiPV/Soundly----music-sharing-platfrom?type=design&node-id=0-1&mode=design&t=LoyzTcRVLMFN0zrd-0" class="project__design-btn">Design</a>
-          </div>
+      <img class="skills-used" alt="Skills Used" height="28" width="260" src="public/images/skiles-used.svg">
+      <div class="project__buttons">
+        <a target="_blank" href="https://soundly-peach.vercel.app/" class="project__demo-btn">Demo</a>
+        <div class="project__buttons-sub">
+          <a target="_blank" href="https://github.com/George-F-Ramzi/soundly" class="project__code-btn">Code</a>
+          <a target="_blank"
+            href="https://www.figma.com/file/nohasksUb7HzWLOFQ8JiPV/Soundly----music-sharing-platfrom?type=design&node-id=0-1&mode=design&t=LoyzTcRVLMFN0zrd-0"
+            class="project__design-btn">Design</a>
         </div>
       </div>
-      <div class="video-container">
-        <video
-          muted
-          id="video"
-          class="project__video"
-          loading="lazy"
-          src="https://res.cloudinary.com/dwnvkwrox/video/upload/v1687776436/soundly_mxx1oy.mp4"
-          height="600"
-          width="592"
-        >
-      </div>
-    </section>
-    <div id="ux-separator">
-      <h2 id="ux-question">Do You want to see my UX UI Work?</h2>
-      <a target="_blank" href="https://www.figma.com/file/u6HQwCCpFYT8I1nUGO9x73/Messaging-App-UI-kit?type=design&node-id=302-3434&mode=design&t=PalapW3S6Hpp6TLb-0">
-        <img
-          alt="Arrow"
-          height="76"
-          width="76"
-          src="public/images/arrow.svg"
-        />
-      </a>
     </div>
-    <h2 id="skills-title">Skills</h2>
-    <div id="skills-grid">
-      <div class="skill-card">
-        <h2 class="skill-card__tile">React</h2>
-        <img
-          class="skill__icon"
-          alt="Skill Image"
-          height="40"
-          width="46"
-          src="public/images/react.svg"
-        />
-      </div>
-      <div class="skill-card">
-        <h2 class="skill-card__tile">Next.js</h2>
-        <img
-          class="skill__icon"
-          alt="Skill Image"
-          
-          width="40"
-          src="public/images/next.svg"
-        />
-      </div>
-      <div class="skill-card">
-        <h2 class="skill-card__tile">JavaScript</h2>
-        <img
-          class="skill__icon"
-          alt="Skill Image"
-          height="40"
-          width="40"
-          src="public/images/javascript.svg"
-        />
-      </div>
-      <div class="skill-card">
-        <h2 class="skill-card__tile">TypeScript</h2>
-        <img
-          class="skill__icon"
-          alt="Skill Image"
-          height="40"
-          width="40"
-          src="public/images/typescript.svg"
-        />
-      </div>
-      <div class="skill-card">
-        <h2 class="skill-card__tile">Node.js</h2>
-        <img
-          class="skill__icon"
-          alt="Skill Image"
-          height="40"
-          width="40"
-          src="public/images/node.svg"
-        />
-      </div>
-      <div class="skill-card">
-        <h2 class="skill-card__tile">MySQL</h2>
-        <img
-          class="skill__icon"
-          alt="Skill Image"
-          height="40"
-          width="40"
-          src="public/images/mysql.svg"
-        />
-      </div>
-      <div class="skill-card">
-        <h2 class="skill-card__tile">Tailwind CSS</h2>
-        <img
-          class="skill__icon"
-          alt="Skill Image"
-          height="40"
-          width="40"
-          src="public/images/tailwind.svg"
-        />
-      </div>
-      <div class="skill-card">
-        <h2 class="skill-card__tile">Figma</h2>
-        <img
-          class="skill__icon"
-          alt="Skill Image"
-          height="40"
-          width="40"
-          src="public/images/figma.svg"
-        />
-      </div>
-      <div class="skill-card">
-        <h2 class="skill-card__tile">GitHub</h2>
-        <img
-          class="skill__icon"
-          alt="Skill Image"
-          height="40"
-          width="40"
-          src="public/images/github.svg"
-        />
-      </div>
-      <div class="skill-card">
-        <h2 class="skill-card__tile">Drizzle ORM</h2>
-        <img
-          class="skill__icon"
-          alt="Skill Image"
-          height="40"
-          width="40"
-          src="public/images/drizzel.svg"
-        />
-      </div>
-      <div class="skill-card">
-        <h2 class="skill-card__tile">GraphQL</h2>
-        <img
-          class="skill__icon"
-          alt="Skill Image"
-          height="40"
-          width="40"
-          src="public/images/graph.svg"
-        />
-      </div>
-      <div class="skill-card">
-        <h2 class="skill-card__tile">StoryBook</h2>
-        <img
-          class="skill__icon"
-          alt="Skill Image"
-          height="40"
-          width="40"
-          src="public/images/storybook.svg"
-        />
-      </div>
+    <div class="video-container">
+      <video muted id="video" class="project__video" loading="lazy"
+        src="https://res.cloudinary.com/dwnvkwrox/video/upload/v1687776436/soundly_mxx1oy.mp4" height="600"
+        width="592" />
     </div>
-    <h2 id="contact-title">LET'S TALK ABOUT<br/> NEXT BIG THING.</h2>
-    <a onclick="Copy()" class="contact-me">Contact Me</a>
-    <script>
-        let select = document.getElementById("select-separator")
-        select.style.opacity = 0.2;
+  </section>
+  <div id="ux-separator">
+    <h2 id="ux-question">Do You want to see my UX UI Work?</h2>
+    <a target="_blank"
+      href="https://www.figma.com/file/u6HQwCCpFYT8I1nUGO9x73/Messaging-App-UI-kit?type=design&node-id=302-3434&mode=design&t=PalapW3S6Hpp6TLb-0">
+      <img alt="Arrow" height="76" width="76" src="public/images/arrow.svg">
+    </a>
+  </div>
+  <h2 id="skills-title">Skills</h2>
+  <div id="skills-grid">
+    <div class="skill-card">
+      <h2 class="skill-card__tile">React</h2>
+      <img class="skill__icon" alt="Skill Image" height="40" width="46" src="public/images/react.svg">
+    </div>
+    <div class="skill-card">
+      <h2 class="skill-card__tile">Next.js</h2>
+      <img class="skill__icon" alt="Skill Image" width="40" src="public/images/next.svg">
+    </div>
+    <div class="skill-card">
+      <h2 class="skill-card__tile">JavaScript</h2>
+      <img class="skill__icon" alt="Skill Image" height="40" width="40" src="public/images/javascript.svg">
+    </div>
+    <div class="skill-card">
+      <h2 class="skill-card__tile">TypeScript</h2>
+      <img class="skill__icon" alt="Skill Image" height="40" width="40" src="public/images/typescript.svg">
+    </div>
+    <div class="skill-card">
+      <h2 class="skill-card__tile">Node.js</h2>
+      <img class="skill__icon" alt="Skill Image" height="40" width="40" src="public/images/node.svg">
+    </div>
+    <div class="skill-card">
+      <h2 class="skill-card__tile">MySQL</h2>
+      <img class="skill__icon" alt="Skill Image" height="40" width="40" src="public/images/mysql.svg">
+    </div>
+    <div class="skill-card">
+      <h2 class="skill-card__tile">Tailwind CSS</h2>
+      <img class="skill__icon" alt="Skill Image" height="40" width="40" src="public/images/tailwind.svg">
+    </div>
+    <div class="skill-card">
+      <h2 class="skill-card__tile">Figma</h2>
+      <img class="skill__icon" alt="Skill Image" height="40" width="40" src="public/images/figma.svg">
+    </div>
+    <div class="skill-card">
+      <h2 class="skill-card__tile">GitHub</h2>
+      <img class="skill__icon" alt="Skill Image" height="40" width="40" src="public/images/github.svg">
+    </div>
+    <div class="skill-card">
+      <h2 class="skill-card__tile">Drizzle ORM</h2>
+      <img class="skill__icon" alt="Skill Image" height="40" width="40" src="public/images/drizzel.svg">
+    </div>
+    <div class="skill-card">
+      <h2 class="skill-card__tile">GraphQL</h2>
+      <img class="skill__icon" alt="Skill Image" height="40" width="40" src="public/images/graph.svg">
+    </div>
+    <div class="skill-card">
+      <h2 class="skill-card__tile">StoryBook</h2>
+      <img class="skill__icon" alt="Skill Image" height="40" width="40" src="public/images/storybook.svg">
+    </div>
+  </div>
+  <h2 id="contact-title">
+    LET'S TALK ABOUT<br />
+    NEXT BIG THING.
+  </h2>
+  <a onclick="Copy()" class="contact-me">Contact Me</a>
+  <script>
+    let select = document.getElementById("select-separator");
+    select.style.opacity = 0.2;
 
-        window.addEventListener("scroll",  handleScroll = () => {
-            let scrollPosition = window.scrollY; 
+    window.addEventListener(
+      "scroll",
+      (handleScroll = () => {
+        let scrollPosition = window.scrollY;
 
-            if(scrollPosition > 150) {
-                select.style.transition= "opacity 1.5s"
-            select.style.opacity = 1;
-            }else {
-                select.style.opacity = 0.2;
-            }
-        });
-
-        let video = document.getElementById("video");
-        video.addEventListener("mouseenter", function () {
-            video.play();
-        });
-        video.addEventListener("mouseleave", function () {
-            video.pause();
-        });
-
-        function Copy () {
-            navigator.clipboard.writeText("george.fawzi.ramzi@gmail.com")
-            alert("Email Copied")
+        if (scrollPosition > 150) {
+          select.style.transition = "opacity 1.5s";
+          select.style.opacity = 1;
+        } else {
+          select.style.opacity = 0.2;
         }
+      })
+    );
 
-    </script>
-  </body>
+    let video = document.getElementById("video");
+    video.addEventListener("mouseenter", function () {
+      video.play();
+    });
+    video.addEventListener("mouseleave", function () {
+      video.pause();
+    });
+
+    function Copy() {
+      navigator.clipboard.writeText("george.fawzi.ramzi@gmail.com");
+      alert("Email Copied");
+    }
+  </script>
+</body>
 </html>
