@@ -190,10 +190,6 @@ main {
   animation: fade 1s 0s 1 ease-in alternate;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 @keyframes fade {
   0% {
     opacity: 0.2;
@@ -213,6 +209,33 @@ html {
   }
   100% {
     opacity: 0.2;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #select-separator {
+    font-size: 96px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #select-separator {
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #select-separator {
+    font-size: 48px;
+    margin-top: 44px;
+    margin-bottom: 32px;
+    margin-left: 4px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #select-separator {
+    font-size: 32px;
   }
 }
 
@@ -352,6 +375,10 @@ html {
   #ux-separator h2 {
     font-size: 16px;
   }
+  #ux-separator img:hover {
+    width: 32px;
+  }
+
   #ux-separator img {
     height: 28px;
     width: 28px;
@@ -368,5 +395,74 @@ html {
   #ux-separator img {
     height: 24px;
     width: 24px;
+  }
+  #ux-separator img:hover {
+    width: 28px;
+  }
+}
+
+/* Skills Section */
+
+#skills-title {
+  color: #fff;
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 150%;
+  margin-bottom: 56px;
+}
+
+#skills-grid {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
+}
+
+.skill-card {
+  padding: 28px 20px;
+  border: var(--border);
+  border-radius: var(--rounded);
+  background-image: var(--gradient);
+}
+
+.skill-card__tile {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+
+.skill__icon {
+  height: 40px;
+  width: auto;
+}
+
+@media screen and (max-width: 600px) {
+  #skills-title {
+    font-size: 32px;
+    margin-bottom: 36px;
+    margin-left: 4px;
+  }
+}
+
+/* footor */
+
+#contact-title {
+  color: #fff;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 150%;
+  margin-top: 112px;
+  margin-bottom: 96px;
+}
+
+@media screen and (max-width: 1000px) {
+  #contact-title {
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #contact-title {
+    font-size: 32px;
+    margin-bottom: 56px;
   }
 }
