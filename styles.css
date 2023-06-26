@@ -12,6 +12,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 html {
   background-color: #0f0f0f;
   font-family: Inter, Arial, Helvetica, sans-serif;

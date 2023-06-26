@@ -18,14 +18,14 @@
       <div>
         <ul>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#select-separator">Projects</a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#skills-title">Skills</a>
           </li>
         </ul>
         <div class="social-icons">
-          <a class="social-icons__link" href="#projects">
+          <a  target="_blank" class="social-icons__link" href="https://www.linkedin.com/in/george-ramzi-74646a228/">
             <img
               alt="social link"
               height="16px"
@@ -33,7 +33,7 @@
               src="public/images/linkden.svg"
             />
           </a>
-          <a class="social-icons__link" href="#projects">
+          <a target="_blank"  class="social-icons__link" href="https://twitter.com/GeorgeRamzi2">
             <img
               alt="social link"
               height="16px"
@@ -41,7 +41,7 @@
               src="public/images/twitter.svg"
             />
           </a>
-          <a class="social-icons__link" href="#skills">
+          <a target="_blank" class="social-icons__link" href="https://github.com/George-F-Ramzi?tab=repositories">
             <img
               alt="social link"
               height="16px"
@@ -60,7 +60,7 @@
         started when I started coding my UX UI work. Seeing my designs go
         interactive is like seeing my designs come alive.
       </p>
-      <a class="contact-me main-btn">Contact Me</a>
+      <a onclick="Copy()" class="contact-me main-btn">Contact Me</a>
     </main>
     <h2 id="select-separator">Selected Work</h2>
     <section id="projects-grid">
@@ -81,10 +81,10 @@
           src="public/images/skiles-used.svg"
         />
         <div class="project__buttons">
-          <a class="project__demo-btn">Demo</a>
+          <a target="_blank" href="https://soundly-peach.vercel.app/" class="project__demo-btn">Demo</a>
           <div class="project__buttons-sub">
-            <a class="project__code-btn">Code</a>
-            <a class="project__design-btn">Design</a>
+            <a target="_blank" href="https://github.com/George-F-Ramzi/soundly" class="project__code-btn">Code</a>
+            <a target="_blank" href="https://www.figma.com/file/nohasksUb7HzWLOFQ8JiPV/Soundly----music-sharing-platfrom?type=design&node-id=0-1&mode=design&t=LoyzTcRVLMFN0zrd-0" class="project__design-btn">Design</a>
           </div>
         </div>
       </div>
@@ -102,7 +102,7 @@
     </section>
     <div id="ux-separator">
       <h2 id="ux-question">Do You want to see my UX UI Work?</h2>
-      <a>
+      <a target="_blank" href="https://www.figma.com/file/u6HQwCCpFYT8I1nUGO9x73/Messaging-App-UI-kit?type=design&node-id=302-3434&mode=design&t=PalapW3S6Hpp6TLb-0">
         <img
           alt="Arrow"
           height="76px"
@@ -235,7 +235,7 @@
       </div>
     </div>
     <h2 id="contact-title">LET'S TALK ABOUT<br/> NEXT BIG THING.</h2>
-    <a class="contact-me">Contact Me</a>
+    <a onclick="Copy()" class="contact-me">Contact Me</a>
     <script>
         let select = document.getElementById("select-separator")
         select.style.opacity = 0.2;
@@ -258,6 +258,11 @@
         video.addEventListener("mouseleave", function () {
             video.pause();
         });
+
+        function Copy () {
+            navigator.clipboard.writeText("george.fawzi.ramzi@gmail.com")
+            alert("Email Copied")
+        }
 
     </script>
   </body>
