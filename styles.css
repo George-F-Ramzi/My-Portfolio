@@ -314,3 +314,59 @@ html {
     gap: 32px;
   }
 }
+
+/* UX UI separator */
+
+#ux-separator {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  padding: 24px 48px;
+  display: flex;
+  background-image: var(--gradient);
+  border: var(--border);
+  border-radius: var(--rounded);
+  align-items: center;
+}
+
+#ux-separator h2 {
+  flex-grow: 1;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+#ux-separator img {
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+#ux-separator img:hover {
+  width: 80px;
+}
+
+@media screen and (max-width: 900px) {
+  #ux-separator {
+    padding: 24px;
+  }
+  #ux-separator h2 {
+    font-size: 16px;
+  }
+  #ux-separator img {
+    height: 28px;
+    width: 28px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #ux-separator {
+    padding: 16px;
+  }
+  #ux-separator h2 {
+    font-size: 14px;
+  }
+  #ux-separator img {
+    height: 24px;
+    width: 24px;
+  }
+}
