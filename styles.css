@@ -1,5 +1,9 @@
 :root {
   --para: #cccccc;
+  --gradient: linear-gradient(135deg, #212121 0%, rgba(21, 21, 21, 0.38) 100%);
+  --border: 1px solid #262626;
+  --rounded: 16px;
+  --line: 150%;
 }
 
 * {
@@ -17,7 +21,6 @@ html {
 body {
   max-width: 1280px;
   margin-inline: auto;
-  line-height: 150%;
   padding: 32px;
   color: white;
 }
@@ -33,6 +36,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+  line-height: var(--line);
 }
 
 nav h1 {
@@ -103,4 +107,107 @@ nav div ul a:hover {
   }
 }
 
+/* Buttons */
+
+.contact-me {
+  display: inline-block;
+  font-weight: bold;
+  padding: 12px 40px;
+  background-color: white;
+  border-radius: 100px;
+  color: black;
+  cursor: pointer;
+  transition: all 500ms;
+}
+
+.contact-me:hover {
+  background-color: rgb(196, 196, 196);
+}
+
+/* Cards*/
+
+.card {
+  margin-top: 60px;
+  height: fit-content;
+  padding: 44px;
+  background-image: var(--gradient);
+  border: var(--border);
+  border-radius: var(--rounded);
+}
+
+.card__subheader {
+  color: var(--para);
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 28px;
+  line-height: var(--line);
+}
+
+.card__header {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: var(--line);
+}
+
+.card__para {
+  color: var(--para);
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 36px;
+  max-width: 556px;
+}
+@media screen and (max-width: 548px) {
+  .card__header {
+    font-size: 32px;
+  }
+
+  .card {
+    padding: 44px 24px;
+  }
+}
+
 /* Landing Hero */
+
+.main-btn {
+  margin-top: 92px;
+}
+
+#select-separator {
+  margin-top: 156px;
+  margin-bottom: 80px;
+  color: #fff;
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.fade {
+  animation: fade 1s 0s 1 ease-in alternate;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  animation: fade-out 1s 0s 1 ease-in alternate;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
