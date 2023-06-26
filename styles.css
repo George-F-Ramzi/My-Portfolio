@@ -1,0 +1,106 @@
+:root {
+  --para: #cccccc;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #0f0f0f;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1280px;
+  margin-inline: auto;
+  line-height: 150%;
+  padding: 32px;
+  color: white;
+}
+
+@media screen and (max-width: 460px) {
+  body {
+    padding: 32px 16px;
+  }
+}
+
+/*  Nav Bar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h1 {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+nav div {
+  width: 276px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav div ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 140px;
+}
+
+nav div ul a {
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 500ms;
+  color: var(--para);
+}
+
+nav div ul a:hover {
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 102px;
+}
+
+.social-icons__link {
+  display: flex;
+  padding-top: 1px;
+  align-items: center;
+}
+
+.social-icons__link img {
+  height: 16px;
+  width: auto;
+}
+
+.social-icons__link img:hover {
+  fill: white;
+}
+
+@media screen and (max-width: 460px) {
+  .social-icons {
+    width: 80px;
+  }
+  nav div ul {
+    width: 128px;
+  }
+  nav div {
+    width: 232px;
+  }
+}
+
+/* Landing Hero */
