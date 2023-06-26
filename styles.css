@@ -127,7 +127,7 @@ nav div ul a:hover {
 /* Cards*/
 
 .card {
-  margin-top: 60px;
+  min-width: 328px;
   height: fit-content;
   padding: 44px;
   background-image: var(--gradient);
@@ -168,6 +168,10 @@ nav div ul a:hover {
 }
 
 /* Landing Hero */
+
+main {
+  margin-top: 60px;
+}
 
 .main-btn {
   margin-top: 92px;
@@ -210,4 +214,71 @@ html {
   100% {
     opacity: 0.2;
   }
+}
+
+/* Project Grid */
+
+#projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.skills-used {
+  margin-top: 48px;
+}
+
+.project__buttons {
+  display: grid;
+  grid-row: 1fr 1fr;
+  row-gap: 24px;
+  margin-top: 76px;
+}
+
+.project__demo-btn {
+  padding: 12px 24px;
+  background-color: white;
+  border-radius: 100px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.project__demo-btn:hover {
+  background-color: rgb(196, 196, 196);
+}
+
+.project__buttons-sub {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+}
+
+.project__code-btn {
+  padding: 12px 24px;
+  background-color: #585555;
+  border-radius: 100px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.project__code-btn:hover {
+  background-color: #3d3b3b;
+}
+
+.project__design-btn {
+  padding: 12px 24px;
+  background-color: transparent;
+  border-radius: 100px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #5e5a5a;
+  cursor: pointer;
+}
+
+.project__design-btn:hover {
+  border: 1px solid white;
 }
