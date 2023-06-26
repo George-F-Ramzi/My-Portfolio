@@ -237,13 +237,28 @@
     <h2 id="contact-title">LET'S TALK ABOUT<br/> NEXT BIG THING.</h2>
     <a class="contact-me">Contact Me</a>
     <script>
-      let video = document.getElementById("video");
-      video.addEventListener("mouseenter", function () {
-        video.play();
-      });
-      video.addEventListener("mouseleave", function () {
-        video.pause();
-      });
+        let select = document.getElementById("select-separator")
+        select.style.opacity = 0.2;
+
+        window.addEventListener("scroll",  handleScroll = () => {
+            let scrollPosition = window.scrollY; 
+
+            if(scrollPosition > 150) {
+                select.style.transition= "opacity 1.5s"
+            select.style.opacity = 1;
+            }else {
+                select.style.opacity = 0.2;
+            }
+        });
+
+        let video = document.getElementById("video");
+        video.addEventListener("mouseenter", function () {
+            video.play();
+        });
+        video.addEventListener("mouseleave", function () {
+            video.pause();
+        });
+
     </script>
   </body>
 </html>
