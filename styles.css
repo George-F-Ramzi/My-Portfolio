@@ -88,19 +88,18 @@ body {
   color: #000;
   font-size: 48px;
   font-weight: 400;
-  margin-left: -3px;
+  margin-left: -2px;
   margin-bottom: 28px;
   font-style: normal;
 }
 
 .details__text {
-  max-width: 514px;
   color: #1f1f1f;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 30px */
-  margin-left: -2px;
+  margin-left: -1px;
 }
 
 @media screen and (max-width: 424px) {
@@ -126,4 +125,59 @@ body {
   font-style: normal;
   font-weight: 400;
   margin-left: -4px;
+}
+
+/* Project */
+
+.project__img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 29px;
+}
+
+.project__buttons {
+  margin-top: 56px;
+}
+
+/* Buttons */
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.primary {
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  margin-bottom: 16px;
+}
+
+.secondary {
+  cursor: pointer;
+  background: #d8d8d8;
+  border: 1px solid black;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  margin-bottom: 16px;
+  color: #000;
+}
+
+.design {
+  cursor: pointer;
+  background: transparent;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  margin-bottom: 16px;
+  color: #000;
 }
