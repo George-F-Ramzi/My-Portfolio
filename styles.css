@@ -118,3 +118,12 @@ body {
     font-size: 16px;
   }
 }
+
+/* Section Title */
+
+.section-title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: -4px;
+}
