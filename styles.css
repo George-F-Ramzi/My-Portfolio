@@ -29,3 +29,24 @@ body {
     padding: 24px;
   }
 }
+
+/* Header */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -1px;
+}
+
+#header h1 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: -2px;
+}
+
+#header h2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: -2px;
+}
