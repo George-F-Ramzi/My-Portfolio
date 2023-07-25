@@ -146,6 +146,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  border-radius: 2px;
 }
 
 .primary {
@@ -180,4 +181,37 @@ body {
   line-height: 150%; /* 30px */
   margin-bottom: 16px;
   color: #000;
+}
+
+/* Skills Section */
+
+#skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(144px, 1fr));
+  gap: 32px;
+}
+
+.skills__card {
+  display: flex;
+  max-width: 168px;
+  height: 168px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #d3d3d3;
+}
+
+.skills__card p {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.skills__card img {
+  width: auto;
+  height: 91px;
 }
