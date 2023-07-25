@@ -43,10 +43,78 @@ body {
   font-size: 16px;
   font-weight: 400;
   margin-left: -2px;
+  font-style: normal;
 }
 
 #header h2 {
   font-size: 16px;
   font-weight: 400;
   margin-right: -2px;
+  font-style: normal;
+}
+
+/* Header */
+
+#landing-hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 67px;
+}
+
+#landing-hero img {
+  width: 146.734px;
+  height: 200px;
+  margin-left: 16px;
+}
+
+@media screen and (max-width: 616px) {
+  #landing-hero img {
+    display: none;
+  }
+}
+
+/* Details Text */
+
+.details__sub {
+  color: #1f1f1f;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 17px;
+  margin-left: -1px;
+  font-style: normal;
+}
+
+.details__header {
+  color: #000;
+  font-size: 48px;
+  font-weight: 400;
+  margin-left: -3px;
+  margin-bottom: 28px;
+  font-style: normal;
+}
+
+.details__text {
+  max-width: 514px;
+  color: #1f1f1f;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  margin-left: -2px;
+}
+
+@media screen and (max-width: 424px) {
+  .details__sub {
+    margin-bottom: 14px;
+  }
+  .details__header {
+    color: #000;
+    font-size: 32px;
+    margin-left: -2px;
+    margin-bottom: 17px;
+  }
+  .details__text {
+    max-width: 100%;
+    font-size: 16px;
+  }
 }
