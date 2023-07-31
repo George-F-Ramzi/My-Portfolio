@@ -162,7 +162,7 @@ body {
 
 .secondary {
   cursor: pointer;
-  background: #d8d8d8;
+  background: transparent;
   border: 1px solid black;
   font-size: 20px;
   font-style: normal;
