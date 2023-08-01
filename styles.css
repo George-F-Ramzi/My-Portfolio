@@ -171,7 +171,7 @@ body {
   color: #000;
 }
 
-.design {
+.tertiary {
   cursor: pointer;
   background: transparent;
   font-size: 20px;
@@ -179,7 +179,7 @@ body {
   font-weight: 400;
   line-height: 150%; /* 30px */
   margin-bottom: 16px;
-  color: #000;
+  color: #555555;
 }
 
 /* Skills Section */
